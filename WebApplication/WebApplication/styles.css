@@ -1,0 +1,30 @@
+﻿html {
+    overflow-y: scroll;
+}
+
+.grid-container {
+    display: grid ;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: #2196F3;
+    margin: auto;
+}
+
+.grid-item {
+    font-size: 30px;
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+
+.state0 {
+    background-color: #9E9E9E;
+}
+
+.state1 {
+    background-color: #1B5E20;
+}
+
+.state2 {
+    background-color: #B00020;
+}
